@@ -1,6 +1,6 @@
 # Programacion Orientada a objetos
 # Descripcion
-### El deber contiene una serie de ejercicios de Programacion Orientada a Objetos incluyendo clases, objetos, encapsulamiento, herencias y polimorfismo
+##### El deber contiene una serie de ejercicios de Programacion Orientada a Objetos incluyendo clases, objetos, encapsulamiento, herencias y polimorfismo
 # Ejercicio 1: Clase Libro
 # Objetivo
 # Crear una clase libro que permita mostrar su informacion y determinar si es antiguo o reciente
