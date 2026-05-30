@@ -19,7 +19,7 @@ class Libro(
     }
     fun prestar() {
         if (estado == "Prestado") {
-            println("El libro ya está prestado.")
+            println("El libro ya esta prestado.")
         } else {
             estado = "Prestado"
             println("Libro prestado correctamente.")
@@ -27,7 +27,7 @@ class Libro(
     }
     fun devolver() {
         if (estado == "Disponible") {
-            println("El libro ya está disponible.")
+            println("El libro ya esta disponible.")
         } else {
             estado = "Disponible"
             println("Libro devuelto correctamente.")
@@ -85,8 +85,8 @@ fun main() {
     val biblioteca = Biblioteca()
     val libro1 = Libro(
         1,
-        "Cien años de soledad",
-        "Gabriel García Márquez"
+        "Cien anios de soledad",
+        "Gabriel Garcia Marquez"
     )
     val libro2 = Libro(
         2,
@@ -96,7 +96,7 @@ fun main() {
     val libro3 = Libro(
         3,
         "El Principito",
-        "Antoine de Saint-Exupéry"
+        "Antoine de Saint-Exupery"
     )
     biblioteca.registrarLibro(libro1)
     biblioteca.registrarLibro(libro2)

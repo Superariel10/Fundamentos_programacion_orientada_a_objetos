@@ -20,8 +20,8 @@ class Libro(
 }
 fun main() {
     val libro1 = Libro(
-        "Cien anos de soledad",
-        "Gabriel García Márquez",
+        "Cien anios de soledad",
+        "Gabriel Garcia Marquez",
         1967,
         496
     )
